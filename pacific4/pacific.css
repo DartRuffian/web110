@@ -1,0 +1,39 @@
+/* Colors
+ * Dark Blue : #002171
+ * Blue      : #1976D2
+ * Light Blue: #BBDEFB
+ * Gray      : #555555
+ */
+
+body 
+{
+        color: #555555;
+        background-color: #FFFFFF;
+}
+
+h1 
+    {
+        color: #FFFFFF;
+        background-color: #002171;
+        margin-bottom: 0;
+    }
+
+nav 
+    {
+        background-color: #BBDEFB;
+    }
+
+h2 
+    {
+        color: #1976D2;
+    }
+
+dt
+    {
+        color: #002171;
+    }
+
+.resort 
+    {
+        color: #1976D2;
+    }
