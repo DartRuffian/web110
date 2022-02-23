@@ -1,15 +1,8 @@
-/* Colors
- * Dark Blue : #002171
- * Blue      : #1976D2
- * Light Blue: #BBDEFB
- * Gray      : #555555
- */
-
 body 
-{
+    {
         color: #555555;
         background-color: #FFFFFF;
-}
+    }
 
 h1 
     {
