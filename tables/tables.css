@@ -1,0 +1,48 @@
+header
+    {
+        text-align: center;
+    }
+
+table, td, th
+    {
+        border: 3px solid #000033;
+        border-radius: 6px;
+        font-size: 19px;
+    }
+
+td, th
+    {
+        font-family: "Times New Roman", Times, serif;
+        word-break: break-word;
+        padding: 4px;
+    }
+
+table
+    {
+        margin: 0 auto;
+        border-spacing: 2px;
+        width: 90%;
+    }
+
+th
+    {
+        font-size: 120%;
+    }
+
+td:empty::after 
+    {   
+        /* Add text to empty cells */
+        content: "N/A";
+        font-size: 80%;
+    }
+
+#wrapper
+    {
+        background-color: #90C7E3;
+        background: linear-gradient(225deg, #90C7E3 0%, #FFFFFF 100%);
+        background-repeat: no-repeat;
+        width: 90%;
+        border: 1px solid #000033;
+        margin: auto;
+        filter: drop-shadow(3px 3px 3px #000033);
+    }
