@@ -247,7 +247,7 @@ input, textarea
                         max-width: 30em;
                         display: grid;
                         gap: 1em;
-                        columns: 6em 1fr;
+                        grid-template-columns: 6em 1fr;
                     }
                 
                 input[type=submit]
