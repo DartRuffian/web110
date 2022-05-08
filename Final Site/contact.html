@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Misinformation :: Contact Author</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1><a href="index.html">Misinformation and the Internet</a></h1>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="reasons.html">Why Misinformation Starts</a></li>
+                    <li><a href="spreads.html">How It Spreads</a></li>
+                    <li><a href="misinformation_types.html">Types of Misinformation</a></li>
+                    <li><a href="contact.html">Contact the Author</a></li>
+                </ul>
+            </nav>
+            <main>
+                <h2>Leave some Feedback for Us</h2>
+                <p>If you'd like to contact the author, you can either send them an email at <a href="mailto:william@grate.com">william@grate.com</a> or you can send a form below!</p>
+                <p>*All fields are required</p>
+                <form action="https://webdevbasics.net/scripts/pacific.php" method="post">
+                    <label for="myFName">First Name:</label>
+                    <input type="text" id="myFName" name="readerFName" required>
+
+                    <label for="myLName">Last Name:</label>
+                    <input type="text" id="myLName" name="readerLName" required>
+                    
+                    <label for="myEmail">E-mail Address:</label>
+                    <input type="email" id="myEmail" name="readerEmail" required>
+
+                    <label for="myComments">Comments:</label>
+                    <textarea id="myComments" name="readerComments" rows="2" cols="30"></textarea>
+
+                    <input type="submit" value="Send Form">
+                </form>
+                <p>*Teacher Note: The form passes the data to the same script as the Pacific 10 assignment, as there was not a given script to use.</p>
+            </main>
+        </div> <!-- End of Wrapper Div -->
+    </body>
+</html>
